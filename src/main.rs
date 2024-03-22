@@ -280,7 +280,7 @@ fn print_dirs_and_size() {
         let left_padding = " ".repeat(longest_left - left.len());
         let right_padding = " ".repeat(longest_right - right.len());
     
-        println!("{left}{left_padding}\t{right}{right_padding}");
+        println!("{left}{left_padding}    {right}{right_padding}");
     }
     // If there are an odd number of items, print the last item in left column
     if left_column.len() > right_column.len() {
@@ -386,7 +386,7 @@ fn print_dirs() {
         let left_padding = " ".repeat(longest_left - left.len());
         let right_padding = " ".repeat(longest_right - right.len());
     
-        println!("{left}{left_padding}\t{right}{right_padding}");
+        println!("{left}{left_padding}   {right}{right_padding}");
     }
     // If there are an odd number of items, print the last item in left column
     if left_column.len() > right_column.len() {
